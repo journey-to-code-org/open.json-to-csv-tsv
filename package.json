@@ -1,13 +1,37 @@
 {
   "name": "@journey-to-code/json-to-csv-tsv",
-  "version": "1.0.0",
-  "description": "Convert JSON objects to CSV or TSV strings",
-  "main": "src/index.js",
+  "version": "1.0.1",
+  "description": "Convert arrays of JSON-style objects to CSV or TSV strings.",
   "type": "module",
-  "scripts": {
-    "test": "node src/test.js"
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
   },
-  "keywords": ["json", "csv", "tsv", "convert", "stringify"],
-  "author": "",
-  "license": "MIT"
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "json",
+    "csv",
+    "tsv",
+    "convert",
+    "stringify",
+    "delimiter"
+  ],
+  "license": "MIT",
+  "sideEffects": false
 }
