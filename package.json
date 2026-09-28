@@ -1,6 +1,6 @@
 {
   "name": "@journey-to-code/json-to-csv-tsv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert arrays of JSON-style objects to CSV or TSV strings.",
   "type": "module",
   "main": "./src/index.js",
