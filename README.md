@@ -2,7 +2,7 @@
 
 > A lightweight, zero-dependency Node.js utility to convert JSON arrays into CSV or TSV strings.
 
-[![npm version](https://img.shields.io/npm/v/open.json-to-csv-tsv.svg)](https://www.npmjs.com/package/open.json-to-csv-tsv)
+[![npm version](https://img.shields.io/npm/v/open.json-to-csv-tsv.svg)](https://www.npmjs.com/package/json-to-csv-tsv)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
