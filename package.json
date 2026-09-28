@@ -1,0 +1,13 @@
+{
+  "name": "@journey-to-code/json-to-csv-tsv",
+  "version": "1.0.0",
+  "description": "Convert JSON objects to CSV or TSV strings",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "keywords": ["json", "csv", "tsv", "convert", "stringify"],
+  "author": "",
+  "license": "MIT"
+}
